@@ -1,0 +1,158 @@
+body {
+  background-image: url("../images/fancy-pants.jpg");
+}
+
+header #logo {
+  width: 50%;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  height: 120px;
+  text-align: center;
+}
+
+header #background-upper-container {
+  background: rgb(105, 105, 105);
+  height: 80%;
+}
+
+header #background-lower-container {
+  background: rgb(54, 54, 54);
+  height: 20%;
+}
+
+header .container {
+  height: 100%;
+  padding: 0;
+}
+
+header .col, header .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 0;
+  height: 100%;
+}
+
+header .row {
+  height: 100%;
+  margin: 0;
+}
+
+header .customization-button {
+  margin: 0;
+}
+
+header img {
+  width: 60%;
+}
+
+header i {
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(#00ffff, #00b0ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+header h6 {
+  text-decoration: none;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* About */
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
+
+nav {
+  padding: 1.5rem;
+}
+
+section {
+  border-top: 1px solid #ccc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+h2, h5 {
+  font-weight: bold;
+}
+
+.header-subtitle {
+  background: -webkit-linear-gradient(#00ffff, #00b0ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  background: -webkit-linear-gradient(#00ffff, #00b0ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: rgb(54, 54, 54);
+}
+
+section, nav {
+  background-color: lightgrey;
+  padding: 3rem;
+  border: 0.4rem outset rgb(105, 105, 105);
+  border-radius: 0.8rem;
+}
+
+section {
+  margin-bottom: 1rem;
+}
+
+li {
+  color: white;
+  background: -webkit-linear-gradient(rgb(54, 54, 54), rgb(105, 105, 105));
+  border: 0.4rem outset rgb(105, 105, 105);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+li h5 {
+  margin-bottom: 0.7rem;
+}
+
+li p {
+  margin-bottom: 0;
+}
+
+.title {
+  color: white;
+  padding: 0.5rem;
+  background: -webkit-linear-gradient(#00ffff, #00b0ff);
+  text-align: center;
+  font-weight: bold;
+  -webkit-text-stroke-width: 0.8px;
+  -webkit-text-stroke-color: rgb(54, 54, 54);
+}
+
+.card-title {
+  color: rgb(105, 105, 105);
+  margin-top: 1rem;
+}
+
+.card {
+  border: 0.4rem outset rgb(105, 105, 105);
+  border-radius: 0.8rem;
+}
