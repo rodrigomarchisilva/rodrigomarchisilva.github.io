@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.e609db52.js",
+    "main.css": "/static/css/main.5e1d951d.css",
+    "main.js": "/static/js/main.39fbe519.js",
     "static/js/787.aed229e6.chunk.js": "/static/js/787.aed229e6.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/sun.png": "/static/media/sun.2833a6cebeaeb950ff21.png",
+    "static/media/moon.png": "/static/media/moon.78d1a5f5644c3df1a666.png",
+    "static/media/logotype.png": "/static/media/logotype.4511e210357371992d22.png",
+    "static/media/flag-br.png": "/static/media/flag-br.2813c1c6937b5bce9646.png",
+    "static/media/flag-us.png": "/static/media/flag-us.8b1838ce92dfa3b2edf5.png",
+    "static/media/floppy-disk.png": "/static/media/floppy-disk.f5dba68d38b9aef953d5.png",
+    "static/media/fancy-pants.jpg": "/static/media/fancy-pants.52bbdfa6f38f6f94e5a6.jpg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.e609db52.js.map": "/static/js/main.e609db52.js.map",
+    "main.5e1d951d.css.map": "/static/css/main.5e1d951d.css.map",
+    "main.39fbe519.js.map": "/static/js/main.39fbe519.js.map",
     "787.aed229e6.chunk.js.map": "/static/js/787.aed229e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.e609db52.js"
+    "static/css/main.5e1d951d.css",
+    "static/js/main.39fbe519.js"
   ]
 }
