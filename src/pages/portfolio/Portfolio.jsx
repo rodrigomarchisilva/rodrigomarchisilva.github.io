@@ -12,7 +12,7 @@ export default function Portfolio() {
 
   return (
     <Container className={ `theme-${theme}` }>
-      <section className="bg-main border padding">
+      <section className="bg-main border padding margin-bottom">
         <h4>{ mainTitle }</h4>
         <Container>
           <Row>
