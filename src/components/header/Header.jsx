@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useCustomization } from "../../context/Customization";
 import { Navbar, Container } from 'react-bootstrap';
 import themeContentDark from "./themeContentDark";
@@ -9,6 +9,39 @@ import HomeLink from "../HomeLink";
 import CollapsibleContent from "../CollapsibleContent";
 
 export default function Header() {
+  useEffect(() => {
+    // Trecho de código responsável por armazenar o scroll da página (linhas 16-30), adaptado de:
+    // https://pqina.nl/blog/applying-styles-based-on-the-user-scroll-position-with-smart-css/
+
+    const debounce = (fn) => {
+      let frame;
+      return (...params) => {
+        if (frame) cancelAnimationFrame(frame);
+        frame = requestAnimationFrame(() => { fn(...params) });
+      }
+    };
+    
+    const storeScroll = () => {
+      document.documentElement.dataset.scroll = window.scrollY;
+    }
+    
+    document.addEventListener('scroll', debounce(storeScroll), { passive: true });
+    
+    storeScroll();
+    
+    const navbarToggle = document.querySelector('.navbar-toggler');
+    
+    navbarToggle.addEventListener('click', () => {
+      if (navbarToggle.classList.contains('collapsed')) {
+        document.querySelector('.navbar').classList.add('shadow-bottom');
+      } else {
+        document.querySelector('.navbar').classList.remove('shadow-bottom');
+      }
+    }
+    , { passive: true });
+  }
+  , []);
+
   const { customization: { theme, language }, customization, setCustomization } = useCustomization();
   const themeContent = theme === "light" ? themeContentLight[language] : themeContentDark[language] ;
   const { themeButton, ironicPhrase, mainBackground} = themeContent;
