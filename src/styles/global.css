@@ -83,10 +83,6 @@ a {
   margin-bottom: 1rem;
 }
 
-.margin-top {
-  margin-top: 1rem;
-}
-
 .margin-left {
   margin-left: 1rem;
 }
@@ -236,4 +232,13 @@ header i {
 .padding-tb {
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+/* header spacer */
+
+span.header-spacer { 
+  margin-top: -7rem;
+  padding-bottom: 7rem;
+  display: block;
+  height: 0;
 }
