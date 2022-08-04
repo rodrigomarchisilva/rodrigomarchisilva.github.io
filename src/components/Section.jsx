@@ -7,8 +7,7 @@ export default function Section({ section }) {
 
   return (
       <section className="bg-main padding-top border margin-bottom">
-        <span id={ id } className="header-spacer">&nbsp;</span>
-        <h4>{sectionTitle}</h4>
+        <h4 id={ id } className="header-spacer">{sectionTitle}</h4>
         <SectionList threeKeyObjectList={ threeKeyObjectList } />
       </section>
   );

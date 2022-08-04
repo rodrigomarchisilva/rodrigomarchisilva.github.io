@@ -236,9 +236,11 @@ header i {
 
 /* header spacer */
 
-span.header-spacer { 
-  margin-top: -7rem;
-  padding-bottom: 7rem;
-  display: block;
-  height: 0;
+.header-spacer::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -7rem; 
+  height: 7rem; 
+  visibility: hidden; 
+  pointer-events: none;
 }
