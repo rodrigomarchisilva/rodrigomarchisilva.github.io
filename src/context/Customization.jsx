@@ -6,7 +6,7 @@ export const CustomizationContext = createContext();
 export const CustomizationProvider = ({ children }) => {
   const [customization, setCustomization] = useState({
     theme: localStorage.getItem('theme') || 'light',
-    language: localStorage.getItem('language') || 'pt-BR',
+    language: localStorage.getItem('language') || 'pt',
   });
 
   return (
