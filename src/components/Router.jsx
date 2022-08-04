@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import About from '../pages/about/About';
-import Home from '../pages/Home';
+import Home from '../pages/home/Home';
 import Tools from '../pages/tools/Tools';
-import NotFound from '../pages/NotFound';
-import Portfolio from '../pages/Portfolio';
+import NotFound from '../pages/not-found/NotFound';
+import Portfolio from '../pages/portfolio/Portfolio';
 
 export default function Router() {
   return (
