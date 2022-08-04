@@ -6,8 +6,9 @@ export default function Section({ section }) {
   const { id, sectionTitle, threeKeyObjectList } = section;
 
   return (
-      <section id={ id } className="bg-main padding-top border margin-bottom">
-        <h4>{ sectionTitle }</h4>
+      <section className="bg-main padding-top border margin-bottom">
+        <span id={ id } className="header-spacer">&nbsp;</span>
+        <h4>{sectionTitle}</h4>
         <SectionList threeKeyObjectList={ threeKeyObjectList } />
       </section>
   );
