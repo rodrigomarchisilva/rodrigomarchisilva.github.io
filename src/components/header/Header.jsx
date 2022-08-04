@@ -9,6 +9,8 @@ import HomeLink from "../HomeLink";
 import CollapsibleContent from "../CollapsibleContent";
 
 export default function Header() {
+  const navbarToggle = document.querySelector('.navbar-toggler');
+
   useEffect(() => {
     // Trecho de código responsável por armazenar o scroll da página (linhas 16-30), adaptado de:
     // https://pqina.nl/blog/applying-styles-based-on-the-user-scroll-position-with-smart-css/
@@ -20,17 +22,15 @@ export default function Header() {
         frame = requestAnimationFrame(() => { fn(...params) });
       }
     };
-    
+
     const storeScroll = () => {
       document.documentElement.dataset.scroll = window.scrollY;
     }
-    
+
     document.addEventListener('scroll', debounce(storeScroll), { passive: true });
-    
+
     storeScroll();
-    
-    const navbarToggle = document.querySelector('.navbar-toggler');
-    
+
     navbarToggle.addEventListener('click', () => {
       if (navbarToggle.classList.contains('collapsed')) {
         document.querySelector('.navbar').classList.add('shadow-bottom');
@@ -40,7 +40,7 @@ export default function Header() {
     }
     , { passive: true });
   }
-  , []);
+  , [navbarToggle]);
 
   const { customization: { theme, language }, customization, setCustomization } = useCustomization();
   const themeContent = theme === "light" ? themeContentLight[language] : themeContentDark[language] ;
@@ -50,6 +50,7 @@ export default function Header() {
   const languageContent = language === "pt" ? languageContentPt : languageContentEn;
   const { languageButton, saveButton, externalLinks, internalLinks, logoAlt, professionalSkill } = languageContent;
   document.body.style.backgroundImage = `url(${mainBackground})`;
+  const handleCollapse = () => { navbarToggle.click() };
 
   const changeTheme = () => {;
     setCustomization({ ...customization, theme: alternativeTheme });
@@ -64,10 +65,14 @@ export default function Header() {
     localStorage.setItem('language', customization.language);
   };
 
+  const callOnClickThemeChain = () => { changeTheme(); handleCollapse(); }
+  const callOnClickLanguageChain = () => { changeLanguage(); handleCollapse(); }
+  const callOnClickSaveChain = () => { saveChanges(); handleCollapse(); }
+
   const customizationButtons = [
-    { ...themeButton, onClick: changeTheme },
-    { ...languageButton, onClick: changeLanguage },
-    { ...saveButton, onClick: saveChanges },
+    { ...themeButton, onClick: callOnClickThemeChain },
+    { ...languageButton, onClick: callOnClickLanguageChain },
+    { ...saveButton, onClick: callOnClickSaveChain },
   ];
 
   return (
@@ -75,8 +80,12 @@ export default function Header() {
       <Navbar fixed="top" expand="lg" className="bg-main">
         <Container fluid>
           <HomeLink homeLink={ { logoAlt, professionalSkill } }/>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={ handleCollapse }
+          />
           <CollapsibleContent
+            handleCollapse={ handleCollapse }
             internalLinks={ internalLinks }
             externalLinks={ externalLinks }
             customizationButtons={ customizationButtons } 

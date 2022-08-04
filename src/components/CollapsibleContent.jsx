@@ -6,16 +6,16 @@ import CustomizationButton from "./CustomizationButton";
 import PropTypes from "prop-types";
 
 export default function CollapsibleContent(props) {
-  const { internalLinks, externalLinks, customizationButtons } = props;
+  const { internalLinks, externalLinks, customizationButtons, handleCollapse } = props;
 
   return (
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
         { internalLinks.map(({ path, icon, name }) => (
-          <InternalLink key={ name } internalLink={ { path, icon, name } } />
+          <InternalLink key={ name } internalLink={ { path, icon, name, handleCollapse } } />
         ))}
         { externalLinks.map(({ path, icon, name }) => (
-          <ExternalLink key={ name } externalLink={ { path, icon, name } } />
+          <ExternalLink key={ name } externalLink={ { path, icon, name, handleCollapse } } />
         ))}
       </Nav>
       <Nav>

@@ -3,7 +3,7 @@ import { Nav } from 'react-bootstrap';
 import PropTypes from "prop-types";
 
 export default function ExternalLink({ externalLink }) {
-  const { path, icon, name } = externalLink;
+  const { path, icon, name, handleCollapse } = externalLink;
 
   return (
     <Nav.Link
@@ -11,6 +11,7 @@ export default function ExternalLink({ externalLink }) {
       target="_blank"
       rel="noreferrer"
       className="txt"
+      onClick={ handleCollapse }
     >
       <i className={ `bi bi-${icon}` } />
       {' '}
