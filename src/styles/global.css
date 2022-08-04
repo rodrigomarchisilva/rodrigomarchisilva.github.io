@@ -1,3 +1,17 @@
+/* header contrast */
+
+html:not([data-scroll='0']) .theme-dark .navbar.bg-main,
+.theme-dark .shadow-bottom {
+  border-bottom: 0.2rem outset #757575;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}
+
+html:not([data-scroll='0']) .theme-light .navbar.bg-main,
+.theme-light .shadow-bottom {
+  border-bottom: 0.2rem outset lightgray;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+}
+
 /* link */
 
 .disabled-link {
