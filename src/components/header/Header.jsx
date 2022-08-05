@@ -50,7 +50,10 @@ export default function Header() {
   const languageContent = language === "pt" ? languageContentPt : languageContentEn;
   const { languageButton, saveButton, externalLinks, internalLinks, logoAlt, professionalSkill } = languageContent;
   document.body.style.backgroundImage = `url(${mainBackground})`;
-  const handleCollapse = () => { document.querySelector('.navbar-toggler').click() };
+
+  const handleCollapse = () => {
+    if (window.innerWidth < 992) document.querySelector('.navbar-toggler').click();
+  };
 
   const changeTheme = () => {;
     setCustomization({ ...customization, theme: alternativeTheme });
