@@ -9,8 +9,6 @@ import HomeLink from "../HomeLink";
 import CollapsibleContent from "../CollapsibleContent";
 
 export default function Header() {
-  const navbarToggle = document.querySelector('.navbar-toggler');
-
   useEffect(() => {
     // Trecho de código responsável por armazenar o scroll da página (linhas 16-30), adaptado de:
     // https://pqina.nl/blog/applying-styles-based-on-the-user-scroll-position-with-smart-css/
@@ -31,6 +29,8 @@ export default function Header() {
 
     storeScroll();
 
+    const navbarToggle = document.querySelector('.navbar-toggler');
+
     navbarToggle.addEventListener('click', () => {
       if (navbarToggle.classList.contains('collapsed')) {
         document.querySelector('.navbar').classList.add('shadow-bottom');
@@ -40,7 +40,7 @@ export default function Header() {
     }
     , { passive: true });
   }
-  , [navbarToggle]);
+  , []);
 
   const { customization: { theme, language }, customization, setCustomization } = useCustomization();
   const themeContent = theme === "light" ? themeContentLight[language] : themeContentDark[language] ;
@@ -50,7 +50,7 @@ export default function Header() {
   const languageContent = language === "pt" ? languageContentPt : languageContentEn;
   const { languageButton, saveButton, externalLinks, internalLinks, logoAlt, professionalSkill } = languageContent;
   document.body.style.backgroundImage = `url(${mainBackground})`;
-  const handleCollapse = () => { navbarToggle.click() };
+  const handleCollapse = () => { document.querySelector('.navbar-toggler').click() };
 
   const changeTheme = () => {;
     setCustomization({ ...customization, theme: alternativeTheme });
