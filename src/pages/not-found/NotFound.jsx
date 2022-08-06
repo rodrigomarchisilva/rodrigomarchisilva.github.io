@@ -7,12 +7,13 @@ import { Container } from 'react-bootstrap';
 export default function NotFound() {
   const { customization: { theme, language } } = useCustomization();
   const languageContent = language === "pt" ? languageContentPt : languageContentEn;
-  const { mainTitle } = languageContent;
+  const { mainTitle, text } = languageContent;
 
   return (
     <Container className={ `theme-${theme}` }>
-      <section className="mt-3">
-        <h2 className="mb-5">{ mainTitle }</h2>
+      <section className="bg-main padding-top border margin-bottom">
+        <h4>{ mainTitle }</h4>
+        <p className="p-3 bg-gradient">{ text }</p>
       </section>
     </Container>
   );
