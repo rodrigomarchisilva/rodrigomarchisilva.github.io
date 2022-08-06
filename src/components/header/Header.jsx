@@ -68,14 +68,10 @@ export default function Header() {
     localStorage.setItem('language', customization.language);
   };
 
-  const callOnClickThemeChain = () => { changeTheme(); handleCollapse(); }
-  const callOnClickLanguageChain = () => { changeLanguage(); handleCollapse(); }
-  const callOnClickSaveChain = () => { saveChanges(); handleCollapse(); }
-
   const customizationButtons = [
-    { ...themeButton, onClick: callOnClickThemeChain },
-    { ...languageButton, onClick: callOnClickLanguageChain },
-    { ...saveButton, onClick: callOnClickSaveChain },
+    { ...themeButton, onClick: () => { changeTheme(); handleCollapse() } },
+    { ...languageButton, onClick: () => { changeLanguage(); handleCollapse(); } },
+    { ...saveButton, onClick: () => { saveChanges(); handleCollapse(); } },
   ];
 
   return (
