@@ -20,6 +20,11 @@ html:not([data-scroll='0']) .theme-light .navbar.bg-main,
 
 /* card */
 
+.card-footer {
+  border-top: none;
+  background: none !important;
+}
+
 .card-title {
   margin-top: 1rem;
   font-size: medium;
@@ -156,6 +161,10 @@ a {
 }
 
 /* text */
+
+p {
+  text-align: justify;
+}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;

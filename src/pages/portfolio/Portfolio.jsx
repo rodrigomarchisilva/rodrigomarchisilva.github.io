@@ -15,7 +15,7 @@ export default function Portfolio() {
       <section className="bg-main border padding margin-bottom">
         <h4>{ mainTitle }</h4>
         <Container>
-          <Row>
+          <Row className="">
             { projects.map((project => (
               <ProjectCard key={ project.name } projectCard={ project } />
             )))}
