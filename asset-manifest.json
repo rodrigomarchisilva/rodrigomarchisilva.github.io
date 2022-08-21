@@ -1,26 +1,24 @@
 {
   "files": {
-    "main.css": "/starwars-planets-search/static/css/main.73bb7ffe.chunk.css",
-    "main.js": "/starwars-planets-search/static/js/main.966c5865.chunk.js",
-    "main.js.map": "/starwars-planets-search/static/js/main.966c5865.chunk.js.map",
-    "runtime-main.js": "/starwars-planets-search/static/js/runtime-main.1849f004.js",
-    "runtime-main.js.map": "/starwars-planets-search/static/js/runtime-main.1849f004.js.map",
-    "static/css/2.0431cc1d.chunk.css": "/starwars-planets-search/static/css/2.0431cc1d.chunk.css",
-    "static/js/2.b0d390a7.chunk.js": "/starwars-planets-search/static/js/2.b0d390a7.chunk.js",
-    "static/js/2.b0d390a7.chunk.js.map": "/starwars-planets-search/static/js/2.b0d390a7.chunk.js.map",
-    "index.html": "/starwars-planets-search/index.html",
-    "precache-manifest.5f9dfee1171f5af0f0254d7668d3c8d0.js": "/starwars-planets-search/precache-manifest.5f9dfee1171f5af0f0254d7668d3c8d0.js",
-    "service-worker.js": "/starwars-planets-search/service-worker.js",
-    "static/css/2.0431cc1d.chunk.css.map": "/starwars-planets-search/static/css/2.0431cc1d.chunk.css.map",
-    "static/css/main.73bb7ffe.chunk.css.map": "/starwars-planets-search/static/css/main.73bb7ffe.chunk.css.map",
-    "static/js/2.b0d390a7.chunk.js.LICENSE.txt": "/starwars-planets-search/static/js/2.b0d390a7.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/starwars-planets-search/static/media/star-jedi_[allfont.net].7c622ae5.ttf"
+    "main.css": "/static/css/main.4cae1fe2.css",
+    "main.js": "/static/js/main.a8e3b5e3.js",
+    "static/js/787.aed229e6.chunk.js": "/static/js/787.aed229e6.chunk.js",
+    "static/media/sun.png": "/static/media/sun.2833a6cebeaeb950ff21.png",
+    "static/media/moon.png": "/static/media/moon.78d1a5f5644c3df1a666.png",
+    "static/media/logotype.png": "/static/media/logotype.4511e210357371992d22.png",
+    "static/media/flag-br.png": "/static/media/flag-br.2813c1c6937b5bce9646.png",
+    "static/media/flag-us.png": "/static/media/flag-us.8b1838ce92dfa3b2edf5.png",
+    "static/media/floppy-disk.png": "/static/media/floppy-disk.f5dba68d38b9aef953d5.png",
+    "static/media/dark-background.jpg": "/static/media/dark-background.52bbdfa6f38f6f94e5a6.jpg",
+    "static/media/lessons-learned.png": "/static/media/lessons-learned.600f43ef5c94c780ac69.png",
+    "static/media/light-background.webp": "/static/media/light-background.0678769b4e9cd3c809f3.webp",
+    "index.html": "/index.html",
+    "main.4cae1fe2.css.map": "/static/css/main.4cae1fe2.css.map",
+    "main.a8e3b5e3.js.map": "/static/js/main.a8e3b5e3.js.map",
+    "787.aed229e6.chunk.js.map": "/static/js/787.aed229e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.1849f004.js",
-    "static/css/2.0431cc1d.chunk.css",
-    "static/js/2.b0d390a7.chunk.js",
-    "static/css/main.73bb7ffe.chunk.css",
-    "static/js/main.966c5865.chunk.js"
+    "static/css/main.4cae1fe2.css",
+    "static/js/main.a8e3b5e3.js"
   ]
 }
