@@ -1,32 +1,55 @@
-import personalWebsite from '../../images/personal-website.png';
-import lessonsLearned from '../../images/lessons-learned.png';
+import rodrigomarchisilva from '../../images/projects/rodrigomarchisilva-en.png';
+import lessonsLearned from '../../images/projects/trybe-lessons-learned.png';
+import starwarsPlanetsSearch from '../../images/projects/trybe-starwars-planets-search.png';
+import art from '../../images/projects/battisti-bootstrap-art.png';
 
 const mainTitle = 'Portfolio';
 
+const standardKeys = {
+  technologiesTitle: 'Technologies',
+  appLinkTitle: 'View app',
+  codeLinkTitle: 'Access source code',
+};
+
 const projects = [
   {
-    name: 'Rodrigo Marchi Silva',
-    image: personalWebsite,
-    description: `It's this website you are navigating on now! My personal website. It is a simple website that I 
-    developed with React to show my background, skills and projects.`,
-    technologiesTitle: 'Technologies',
-    technologies: ['React', 'Context API', 'Bootstrap'],
-    appLink: 'https://rodrigomarchisilva.github.io/',
-    appLinkTitle: 'View app',
-    codeLink: 'https://github.com/rodrigomarchisilva/rodrigomarchisilva.github.io',
-    codeLinkTitle: 'Access source code',
+    ...standardKeys,
+    name: 'Starwars Planets Search',
+    image: starwarsPlanetsSearch,
+    description: `Trybe's Frontend React Context API project. Involves the usage of React Context API + Hooks to manage global state, 
+    fetching from SWAPI (Star Wars API) and displaying the results in a table with filtering options. Styled with Bootstrap.`,
+    technologies: ['React', 'Context API + Hooks', 'Bootstrap'],
+    appLink: 'https://rodrigomarchisilva.github.io/trybe-starwars-planets-search/',
+    codeLink: 'https://github.com/rodrigomarchisilva/trybe-starwars-planets-search',
   },
   {
+    ...standardKeys,
+    name: 'Rodrigo Marchi Silva',
+    image: rodrigomarchisilva,
+    description: `It's this website you are navigating on now! My personal website. It is a simple website that I 
+    developed with React to show my background, skills and projects.`,
+    technologies: ['React', 'Context API + Hooks', 'Bootstrap'],
+    appLink: 'https://rodrigomarchisilva.github.io/',
+    codeLink: 'https://github.com/rodrigomarchisilva/rodrigomarchisilva.github.io',
+  },
+  {
+    ...standardKeys,
     name: 'Lessons Learned',
     image: lessonsLearned,
     description: `The first website I ever developed. It is completely basic, consisting of only one page, HTML + CSS. 
     I used Bootstrap to make it responsible, but I kept the style as it was on the original, only replacing the old photo.`,
-    technologiesTitle: 'Technologies',
     technologies: ['HTML', 'CSS', 'Bootstrap'],
     appLink: 'https://rodrigomarchisilva.github.io/trybe-lessons-learned/',
-    appLinkTitle: 'View app',
     codeLink: 'https://github.com/rodrigomarchisilva/trybe-lessons-learned',
-    codeLinkTitle: 'Access source code',
+  },
+  {
+    ...standardKeys,
+    name: 'Art',
+    image: art,
+    description: `Matheus Battisti's Bootstrap course project. A simple art gallery website`,
+    technologies: ['HTML', 'CSS', 'Bootstrap'],
+    appLink: 'https://rodrigomarchisilva.github.io/battisti-bootstrap-art/',
+    codeLink: 'https://github.com/rodrigomarchisilva/battisti-bootstrap-art',
   },
 ];
 
