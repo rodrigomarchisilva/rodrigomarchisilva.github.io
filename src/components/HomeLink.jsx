@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Row, Navbar, Container } from 'react-bootstrap';
-import logotype from "../images/logotype.png";
+import logotype from "../images/icons/logotype.png";
 import PropTypes from "prop-types";
 
 export default function HomeLink({ homeLink }) {

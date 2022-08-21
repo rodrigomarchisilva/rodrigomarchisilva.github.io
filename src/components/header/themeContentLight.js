@@ -1,5 +1,5 @@
-import sun from "../../images/sun.png";
-import lightBackground from "../../images/light-background.webp";
+import sun from "../../images/icons/sun.png";
+import lightBackground from "../../images/backgrounds/light-background.webp";
 
 const themeButtonEn = {
   src: sun,

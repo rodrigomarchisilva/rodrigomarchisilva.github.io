@@ -1,5 +1,5 @@
-import moon from "../../images/moon.png";
-import darkBackground from "../../images/dark-background.jpg";
+import moon from "../../images/icons/moon.png";
+import darkBackground from "../../images/backgrounds/dark-background.jpg";
 
 const themeButtonEn = {
   src: moon,

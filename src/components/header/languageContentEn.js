@@ -1,5 +1,5 @@
-import flagUS from "../../images/flag-us.png";
-import floppyDisk from "../../images/floppy-disk.png";
+import flagUS from "../../images/icons/flag-us.png";
+import floppyDisk from "../../images/icons/floppy-disk.png";
 
 const languageButton = {
   src: flagUS,
