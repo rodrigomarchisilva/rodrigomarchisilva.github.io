@@ -1,9 +1,9 @@
 import React from "react";
-import { Card, Col, Button, ButtonGroup } from 'react-bootstrap';
+import { Card, Col, Button, ButtonGroup, Badge } from 'react-bootstrap';
 import PropTypes from "prop-types";
 
 export default function ProjectCard({ projectCard }) {
-  const { name, image, description, technologiesTitle, technologies, appLink, appLinkTitle, codeLink, codeLinkTitle } = projectCard;
+  const { name, image, description, technologies, appLink, appLinkTitle, codeLink, codeLinkTitle } = projectCard;
 
   const disableAppLink = appLink === "" ? " disabled-link" : "";
   const disableCodeLink = codeLink === "" ? " disabled-link" : "";
@@ -16,8 +16,7 @@ export default function ProjectCard({ projectCard }) {
           <Card.Title className="card-main-title">{ name }</Card.Title>
           <Card.Text className="mb-2 justified">{ description }</Card.Text>
           <Card.Text className="mb-2">
-            <b>{ `${ technologiesTitle }: ` }</b>
-            { `${technologies.join(', ')}.` }
+            { technologies.map((technology) => (<Badge key={technology} className="me-2">{technology}</Badge>)) }
           </Card.Text>
         </Card.Body>
         <Card.Footer className="p-2">
