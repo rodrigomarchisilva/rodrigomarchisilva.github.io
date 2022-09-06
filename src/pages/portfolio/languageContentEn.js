@@ -18,7 +18,7 @@ const projects = [
     name: 'Wallet',
     image: wallet,
     description: `Trybe's Frontend project. Uses class components and fetchs updated currencies data from AwesomeAPI. There is a 
-    login screen with its own validation logic, and a form, to create and update expenses.`,
+    login screen with its own validation logic, and a form, to create, update and remove expenses.`,
     technologies: ['React', 'Redux', 'Material UI'],
     appLink: 'https://rodrigomarchisilva.github.io/trybe-wallet/',
     codeLink: 'https://github.com/rodrigomarchisilva/trybe-wallet',

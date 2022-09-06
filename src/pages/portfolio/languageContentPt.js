@@ -18,7 +18,7 @@ const projects = [
     name: 'Wallet',
     image: wallet,
     description: `Projeto de Frontend da Trybe. Utiliza componentes de classe e faz requisições na AwesomeAPI, para obter valores atualizados das moedas. 
-    Tem uma página de login com esquema próprio de validação e um formulário para criar e adicionar despesas.`,
+    Tem uma página de login com esquema próprio de validação e um formulário para criar, atualizar e remover despesas.`,
     technologies: ['React', 'Redux', 'Material UI'],
     appLink: 'https://rodrigomarchisilva.github.io/trybe-wallet/',
     codeLink: 'https://github.com/rodrigomarchisilva/trybe-wallet',
