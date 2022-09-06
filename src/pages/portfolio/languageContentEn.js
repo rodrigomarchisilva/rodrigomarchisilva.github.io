@@ -1,7 +1,8 @@
-import rodrigomarchisilva from '../../images/projects/rodrigomarchisilva-en.png';
+import rodrigomarchisilva from '../../images/projects/rodrigomarchisilva.png';
 import lessonsLearned from '../../images/projects/trybe-lessons-learned.png';
 import starwarsPlanetsSearch from '../../images/projects/trybe-starwars-planets-search.png';
 import art from '../../images/projects/battisti-bootstrap-art.png';
+import wallet from '../../images/projects/trybe-wallet.png';
 
 const mainTitle = 'Portfolio';
 
@@ -12,6 +13,16 @@ const standardKeys = {
 };
 
 const projects = [
+  {
+    ...standardKeys,
+    name: 'Wallet',
+    image: wallet,
+    description: `Trybe's Frontend project. Uses class components and fetchs updated currencies data from AwesomeAPI. There is a 
+    login screen with its own validation logic, and a form, to create and update expenses.`,
+    technologies: ['React', 'Redux', 'Material UI'],
+    appLink: 'https://rodrigomarchisilva.github.io/trybe-wallet/',
+    codeLink: 'https://github.com/rodrigomarchisilva/trybe-wallet',
+  },
   {
     ...standardKeys,
     name: 'Starwars Planets Search',
