@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4cae1fe2.css",
-    "main.js": "/static/js/main.b599e5b3.js",
+    "main.js": "/static/js/main.6c859534.js",
     "static/js/787.aed229e6.chunk.js": "/static/js/787.aed229e6.chunk.js",
     "static/media/battisti-bootstrap-art.png": "/static/media/battisti-bootstrap-art.4d99d5e783edd1bb878a.png",
     "static/media/trybe-starwars-planets-search.png": "/static/media/trybe-starwars-planets-search.75954b3495a4b7d51c55.png",
@@ -18,11 +18,11 @@
     "static/media/light-background.webp": "/static/media/light-background.0678769b4e9cd3c809f3.webp",
     "index.html": "/index.html",
     "main.4cae1fe2.css.map": "/static/css/main.4cae1fe2.css.map",
-    "main.b599e5b3.js.map": "/static/js/main.b599e5b3.js.map",
+    "main.6c859534.js.map": "/static/js/main.6c859534.js.map",
     "787.aed229e6.chunk.js.map": "/static/js/787.aed229e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cae1fe2.css",
-    "static/js/main.b599e5b3.js"
+    "static/js/main.6c859534.js"
   ]
 }
