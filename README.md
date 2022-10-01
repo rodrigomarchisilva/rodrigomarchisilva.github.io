@@ -1,9 +1,9 @@
 <!-- markdownlint-disable MD004 MD007 MD048 MD033-->
-# :moneybag: Wallet (carteira)
+# :man: Rodrigo Marchi Silva
 
 ## :open_book: Content (conteúdo)
 
-- [:moneybag: Wallet (carteira)](#moneybag-wallet-carteira)
+- [:man: Rodrigo Marchi Silva](#man-rodrigo-marchi-silva)
   - [:open_book: Content (conteúdo)](#open_book-content-conteúdo)
   - [:us: English](#us-english)
     - [:desktop_computer: Deploy link](#desktop_computer-deploy-link)
@@ -15,7 +15,7 @@
     - [:whale2: How to run it through docker](#whale2-how-to-run-it-through-docker)
     - [:whale: How to run it through docker-compose](#whale-how-to-run-it-through-docker-compose)
     - [:house: Home page](#house-home-page)
-    - [:man: About](#man-about)
+    - [:page_with_curl: About](#page_with_curl-about)
     - [:toolbox: Tools](#toolbox-tools)
     - [:file_folder: Portfolio](#file_folder-portfolio)
     - [:link: External link to LinkedIn](#link-external-link-to-linkedin)
@@ -32,7 +32,7 @@
     - [:whale2: Como rodar através do docker](#whale2-como-rodar-através-do-docker)
     - [:whale: Como rodar através do docker-compose](#whale-como-rodar-através-do-docker-compose)
     - [:house: Página inicial](#house-página-inicial)
-    - [:man: Sobre](#man-sobre)
+    - [:page_with_curl: Sobre](#page_with_curl-sobre)
     - [:toolbox: Ferramentas](#toolbox-ferramentas)
     - [:file_folder: Portfólio](#file_folder-portfólio)
     - [:link: Link externo para o LinkedIn](#link-link-externo-para-o-linkedin)
@@ -184,7 +184,7 @@
 
 > I will include a video presentation here in the future.
 
-### :man: About
+### :page_with_curl: About
 
 ![About](/gifs/rms-about.gif)
 
@@ -360,7 +360,7 @@
 
 > Eu irei incluir uma apresentação em vídeo aqui no futuro.
 
-### :man: Sobre
+### :page_with_curl: Sobre
 
 ![Sobre](/gifs/rms-about.gif)
 
