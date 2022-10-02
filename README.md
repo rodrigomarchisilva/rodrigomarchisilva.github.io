@@ -70,9 +70,8 @@
 * **Core Technologies:** React (w/ functional components), ContextAPI, Hooks, React-Bootstrap;
 * **Secondary Technologies:** Docker (w/ compose);
 * **Description:** This project was created to be a portfolio, with a home page, a page with information about me, a page with the technologies I used at least once, and a page with links to the applications I created and their source code. It also gives the user the ability to switch between light and dark themes, to alter the language between English and Portuguese, and to save preferences in the browser's local storage;
-* **How Trybe projects work:** Trybe makes tests and you have to pass them to get your project approved, through GitHub Actions. They tell you what the app should do and you have to make it happen with your own logic and design, often having to use things they didn't teach you yet, to practice your research, problem solving and learning skills. So it's not a copy-paste project, like in most of the courses;
-* **My approach to learning through projects:** I always try to do things for the first time without using external references, e.g. Stack Overflow, ready to use designs and so on. I only use them when I'm stuck and can't find a solution on my own. I believe that doing this when I'm only practicing, increases my creativity. That's why some of my projects might not follow well stablished patterns of code and design;
-* **Commit history:** It might be a bit messy or compromised in some projects, either because I had to migrate the project to a new repository, or because I was still in the learning process and didn't know how to use Git properly. I'm still learning, but I already improved a lot.
+* **How this project was made:** I did it all by myself, including logic and design. Only a few functionalities were inspired by other sources, but I pointed them out in the code;
+* **Commit history:** It might be a bit messy or cut by half in some projects, either because I had to migrate the project to a new repository and lost the first commits, or because, at the time, I had not yet learned how to use atomic and conventional commits.
 
 ### :printer: Cloning the project and opening it on VSCode
 
@@ -256,9 +255,8 @@
 * **Tecnologias principais:** React (c/ componentes funcionais), ContextAPI, Hooks, CSS, React-Bootstrap;
 * **Tecnologias secundárias:** Docker (c/ compose);
 * **Descrição:** Esse projeto foi criado para ser um portfólio, com uma página inicial, uma página com informações sobre mim, uma página com as ferramentas que eu já utilizei, uma página com meus projetos e seus devidos linlks, e uma página de erro 404. Além disso, o usuário pode mudar o tema da aplicação, e a linguagem, e essas mudanças podem ser salvas no local storage;
-* **Como os projetos da Trybe funcionam:** A Trybe faz testes, validados através do GitHub Actions, e você tem que contemplá-los para ser aprovado no bloco. O README diz o que o app deve fazer e você desenvolve com a sua própria lógica e design, muitas vezes tendo que usar conhecimentos que eles ainda não passaram, para praticar suas habilidades de pesquisa, solução de problemas e aprendizado. Então não é um projeto copia e cola, como na maioria dos cursos;
-* **Minha abordagem para aprender através de projetos:** Quando faço algo pela primeira vez, tento não usar referências externas, como Stack Overflow, designs prontos e assim por diante. Eu só uso quando estou emperrado e não consigo encontrar uma solução sozinho. Acredito que o uso dessa prática ao estudar, aumenta minha criatividade. É por isso que alguns dos meus projetos podem não seguir padrões estabelecidos de código e design;
-* **Histórico de commits:** Pode estar um pouco bagunçado ou comprometido em alguns projetos, seja porque tive que migrar o projeto para um novo repositório, ou porque ainda estava no processo de aprendizado e não sabia usar o Git direito. Eu ainda estou aprendendo, mas já melhorei muito;
+* **Como esse projeto foi feito:** Eu fiz ele completamente por conta própria, tanto a lógica quanto o design. Somente algumas pequenas funcionalidades foram baseadas em tutoriais, mas eu apontei isso no código;
+* **Histórico de commits:** Pode estar um pouco bagunçado ou cortado pela metade em alguns projetos, seja porque eu tive que migrar o projeto para um novo repositório e perdi os primeiros commits, ou porque eu ainda não tinha aprendido a usar commits atômicos e convencionais.
 
 ### :printer: Clonando o projeto e abrindo no VSCode
 
