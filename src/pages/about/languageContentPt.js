@@ -9,13 +9,13 @@ const whoAmI = {
     {
       title: 'Olá!',
       subtitle: `Sou brasileiro, tenho ${setAge()} anos, moro em Jundiaí, São Paulo e estou em transição de carreira. 
-      Finalizei o curso de Desenvolvimento Web Full Stack JavaScript na Trybe e tenho buscado uma vaga na área.`,
-      description: `Gosto de aprender novas coisas, e ao longo da minha carreira, tentei seguir um caminho em que eu estivesse sempre 
-      fazendo isso. Junto a minha paixão por desafios e tecnologia, e experiência com Excel, isso me levou a buscar a programação. 
-      Meu objetivo é me superar diariamente. Nas horas vagas, pratico musculação e esportes, como futebol, jiu-jitsu e boxe. 
-      Também me interesso por jogos, música (guitarrista/cantor) e desenho. Passei pela metalurgia, logística (onde trabalhei com Excel), 
-      aviação e biomedicina, mas me contrei novamente com o desenvolvimento de software. Através de Trybe e por conta própria, aprendi 
-      muito sobre JavaScript, e desejo continuar aprendendo mais. Mas... tenho a disposição e vontade para aprender novas coisas se necessário!`,
+      Finalizei o curso de Desenvolvimento Web Full Stack JavaScript na Trybe e hoje busco uma vaga na área.`,
+      description: `Gosto de adquirir novos conhecimentos e sou apaixonado por lógica e tecnologia, o que me levou a buscar a programação. 
+      Iniciei meus estudos em janeiro de 2021, e desde então, venho conciliando teoria e prática para me aperfeiçoar diariamente. 
+      Nas horas vagas, pratico musculação e também me interesso por jogos, música (guitarrista/cantor) e desenho. 
+      Passei pela metalurgia, logística (onde trabalhei com Excel), aviação e biomedicina, onde adquiri habilidades profissionais 
+      que pretendo colocar em prática como desenvolvedor de software. Através da Trybe e por conta própria, mergulhei no universo do JavaScript, 
+      porém, apesar de gostar muito dessa linguagem, meu interesse não se limita apenas a ela. Estou sempre disposto a aprender!`,
     },
   ],
 };
@@ -24,6 +24,14 @@ const education = {
   sectionTitle: 'Educação',
   id: 'education',
   threeKeyObjectList: [
+    {
+      title: 'Trybe (Mai 2021 – Ago 2022)',
+      subtitle: 'Desenvolvimento Web (Full Stack em JavaScript)',
+      description: `O curso da Trybe de desenvolvimento web tem 
+      mais de 1500 horas de formação, abordando fundamentos de desenvolvimento 
+      web, desenvolvimento Frontend, Backend, ciência da computação (com Python), 
+      metodologias ágeis e habilidades comportamentais`,
+    },
     {
       title: 'UniAnchieta (Jul 2015 – Jul 2019)',
       subtitle: 'Bacharel em Biomedicina',

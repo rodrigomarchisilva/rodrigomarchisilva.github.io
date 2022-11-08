@@ -9,12 +9,13 @@ const whoAmI = {
     {
       title: 'Hey there!',
       subtitle: `I'm Rodrigo, from Sao Paulo, Brazil, where I live with my parents and my sister. I'm ${setAge()}, currently in a career transition, 
-      job hunting after Trybe's web development course that just ended. I'd like to work as a Full Stack Web Developer and specialize in JavaScript.`,
-      description: `I've always loved learning new stuff, so through my career decisions, I've tried to follow a path where I'd consistently do it. 
-      With my passion for logic challenges and technology, and previous experience with Excel, that's what led me to become a developer. My goal is to get better than myself everyday. 
-      In my free time, I practice bodybuilding and sports like soccer, jiu-jitsu and boxing. Other than that, I'm a gamer and a musician (guitarist/singer), who casually draws too. 
-      I've been through a few distinct professional areas, like metallurgy, logistics (where I worked a lot with Excel), aviation and biomedicine, but software development, 
-      an old desire, found me again. At Trybe and by myself, I learned a lot about JavaScript, and I wish to keep doing so. But... I also have the drive to learn new things if needed!`,
+      job hunting after Trybe's JavaScript Full Stack Web Development course that just ended.`,
+      description: `I like to acquire fresh knowledge and I'm passionate about logic and technology, which led me to programming. 
+      I started my studies in January 2021, and since then, I've been combining theory and practice to improve my skills daily. 
+      In my spare time, I practice bodybuilding and I'm also interested in games, music (guitarist/singer) and drawing. 
+      I've been through metallurgy, logistics (where I worked with Excel), aviation and biomedicine, where I acquired professional skills 
+      that I intend to put into practice as a software developer. Through Trybe and on my own, I've dived into the universe of JavaScript, 
+      however, despite loving this language, my interest is not limited to it. I'm always willing to learn!`,
     },
   ],
 };
@@ -24,8 +25,16 @@ const education = {
   id: 'education',
   threeKeyObjectList: [
     {
+      title: 'Trybe (May 2021 – Aug 2022)',
+      subtitle: 'Web Development (Full Stack in JavaScript)',
+      description: `Trybe's web development course has 
+      more than 1500 hours of training, covering web development fundamentals, 
+      Frontend development, Backend, computer science (with Python), agile methodologies 
+      and behavioral skills`,
+    },
+    {
       title: 'UniAnchieta (Jul 2015 – Jul 2019)',
-      subtitle: 'Bachelor degree in biomedicine',
+      subtitle: 'Bachelor\'s degree in biomedicine',
       description: ' Qualified in imaging and clinical analysis.',
     },
   ],
@@ -74,7 +83,7 @@ const experiences = {
     },
     {
       title: 'DHL Logistics Brazil LTDA (Nov 2011 - Jan 2014)',
-      subtitle: 'Supply chain assistant',
+      subtitle: 'Transportation assistant',
       description: 'Identification and collection of pending invoices, interaction with drivers/operation and creation of picking lists, mostly using Excel.',
     },
     {
