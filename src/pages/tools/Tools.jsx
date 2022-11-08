@@ -1,15 +1,16 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import { Container, Row, ButtonGroup } from 'react-bootstrap';
 import { useCustomization } from "../../context/Customization";
 import languageContentPt from "./languageContentPt";
 import languageContentEn from "./languageContentEn";
-import tools from "./tools";
+import iconCards from "./iconCards";
 import ToolCard from '../../components/ToolCard';
+import NavigationButton from '../../components/NavigationButton';
 
 export default function Tools() {
   const { customization: { theme, language } } = useCustomization();
   const languageContent = language === "pt" ? languageContentPt : languageContentEn;
-  const { mainTitle } = languageContent;
+  const { sections, mainTitle } = languageContent;
 
   return (
     <Container className={`theme-${theme}`}>
@@ -20,16 +21,29 @@ export default function Tools() {
         </linearGradient>
       </svg>
 
-      <section className="bg-main border padding margin-bottom">
-        <h4 className='margin-bottom'>{ mainTitle }</h4>
-        <Container>
-          <Row>
-            { tools.map(({ name, icon }) => (
-              <ToolCard key={ name } toolCard={{ name, icon }} />
+      <nav className="bg-main padding-tb border margin-bottom">
+        <h4>{ mainTitle }</h4>
+        <Container className="d-flex justify-content-center">
+          <ButtonGroup vertical>
+            { sections.map(({ sectionKey, sectionTitle }) => (
+              <NavigationButton key={sectionKey} navigationButton={ { id: sectionKey, sectionTitle } } />
             ))}
-          </Row>
+          </ButtonGroup>
         </Container>
-      </section>
+      </nav>
+
+      { sections.map(({ sectionKey, sectionTitle }) => (
+        <section className="bg-main border p-2 margin-bottom" key={ sectionKey }>
+          <h5 className='m-2 header-spacer' id={ sectionKey }>{ sectionTitle }</h5>
+          <Container>
+            <Row>
+              { iconCards[sectionKey].map(({ name, icon, link }) => (
+                <ToolCard key={ name } toolCard={{ name, icon, link }} />
+              ))}
+            </Row>
+          </Container>
+        </section>
+      ))}
     </Container>
   );
 }
