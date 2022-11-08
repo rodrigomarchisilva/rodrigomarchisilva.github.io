@@ -3,7 +3,7 @@ import { Card, Col } from 'react-bootstrap';
 import PropTypes from "prop-types";
 
 export default function ToolCard({ toolCard }) {
-  const { name, icon } = toolCard;
+  const { name, icon, link } = toolCard;
 
   return (
     <Col key={ name } xs={ 6 } sm={ 4 } md={ 3 } lg={ 2 } className="p-0">
@@ -11,7 +11,7 @@ export default function ToolCard({ toolCard }) {
         <Card.Body>
           { icon }
           <Card.Title>
-            { name }
+            <a className="stretched-link" href={ link } target="_blank" rel="noreferrer">{ name }</a>
           </Card.Title>
         </Card.Body>
       </Card>
@@ -23,5 +23,6 @@ ToolCard.propTypes = {
   toolCard: PropTypes.shape({
     name: PropTypes.string,
     icon: PropTypes.element,
+    link: PropTypes.string,
   }),
 }.isRequired;
