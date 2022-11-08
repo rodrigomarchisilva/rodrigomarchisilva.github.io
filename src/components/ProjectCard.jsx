@@ -19,7 +19,7 @@ export default function ProjectCard({ projectCard }) {
             { technologies.map((technology) => (<Badge key={technology} className="me-2">{technology}</Badge>)) }
           </Card.Text>
         </Card.Body>
-        <Card.Footer className="p-2">
+        <Card.Footer className="p-1">
           <ButtonGroup vertical className="full-width">
             <Button className="mb-1 bg-blue border">
               <a
