@@ -5,6 +5,7 @@ import languageContentEn from "./languageContentEn";
 import { ButtonGroup, Container } from 'react-bootstrap';
 import Section from "../../components/Section";
 import NavigationButton from "../../components/NavigationButton";
+import BackToTopButton from '../../components/BackToTopButton';
 
 export default function About() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
@@ -29,6 +30,8 @@ export default function About() {
       { sections.map(({ id, sectionTitle, threeKeyObjectList }) => (
         <Section key={ id } section={ { id, sectionTitle, threeKeyObjectList } } />
       ))}
+
+      <BackToTopButton />
     </Container>
   );
 };

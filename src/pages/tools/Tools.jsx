@@ -6,6 +6,7 @@ import languageContentEn from "./languageContentEn";
 import iconCards from "./iconCards";
 import ToolCard from '../../components/ToolCard';
 import NavigationButton from '../../components/NavigationButton';
+import BackToTopButton from '../../components/BackToTopButton';
 
 export default function Tools() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
@@ -46,6 +47,9 @@ export default function Tools() {
           </Container>
         </section>
       ))}
+
+      <BackToTopButton />
     </Container>
+
   );
 }

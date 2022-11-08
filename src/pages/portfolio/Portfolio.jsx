@@ -4,6 +4,7 @@ import languageContentEn from "./languageContentEn";
 import languageContentPt from "./languageContentPt";
 import { useCustomization } from "../../context/Customization";
 import ProjectCard from "../../components/ProjectCard";
+import BackToTopButton from '../../components/BackToTopButton';
 
 export default function Portfolio() {
   useEffect(() => { window.scrollTo(0, 0); }, []);
@@ -24,6 +25,8 @@ export default function Portfolio() {
           </Row>
         </Container>
       </section>
+
+      <BackToTopButton />
     </Container>
   );
 };

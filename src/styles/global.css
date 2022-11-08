@@ -1,3 +1,17 @@
+/* back to top button */
+
+.back-to-top {
+  position: fixed;
+  z-index: 2;
+  bottom: 1rem;
+  right: 0.75rem;
+  display: none;
+}
+
+html:not([data-scroll='0']) .back-to-top {
+  display: block;
+}
+
 /* badges */
 
 .theme-dark .badge {
