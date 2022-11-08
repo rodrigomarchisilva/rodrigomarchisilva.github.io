@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Container, Row } from 'react-bootstrap';
 import languageContentEn from "./languageContentEn";
 import languageContentPt from "./languageContentPt";
@@ -6,6 +6,8 @@ import { useCustomization } from "../../context/Customization";
 import ProjectCard from "../../components/ProjectCard";
 
 export default function Portfolio() {
+  useEffect(() => { window.scrollTo(0, 0); }, []);
+
   const { customization: { theme, language } } = useCustomization();
   const languageContent = language === "pt" ? languageContentPt : languageContentEn;
   const { mainTitle, projects } = languageContent;

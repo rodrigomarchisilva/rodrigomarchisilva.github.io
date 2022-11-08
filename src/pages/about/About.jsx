@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useCustomization } from "../../context/Customization";
 import languageContentPt from "./languageContentPt";
 import languageContentEn from "./languageContentEn";
@@ -7,6 +7,8 @@ import Section from "../../components/Section";
 import NavigationButton from "../../components/NavigationButton";
 
 export default function About() {
+  useEffect(() => { window.scrollTo(0, 0); }, []);
+
   const { customization: { theme, language } } = useCustomization();
   const languageContent = language === "pt" ? languageContentPt : languageContentEn;
   const { pageTitle, sections } = languageContent;
