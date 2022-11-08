@@ -61,7 +61,7 @@ const iconCards = {
     { name: 'Python', icon: <FaPython style={ iconStyle }/>, link: 'https://www.python.org/' },
   ],
   frontend: [
-    { name: 'React JS', icon: <FaReact style={ iconStyle }/>, link: 'https://reactjs.org/' },
+    { name: 'React', icon: <FaReact style={ iconStyle }/>, link: 'https://reactjs.org/' },
     { name: 'Redux', icon: <SiRedux style={ iconStyle }/>, link: 'https://redux.js.org/' },
     { name: 'Bootstrap', icon: <FaBootstrap style={ iconStyle }/>, link: 'https://getbootstrap.com/' },
     { name: 'Material UI', icon: <SiMaterialui style={ iconStyle }/>, link: 'https://material-ui.com/' },
@@ -71,8 +71,8 @@ const iconCards = {
     { name: 'MongoDB', icon: <SiMongodb style={ iconStyle }/>, link: 'https://www.mongodb.com/' },
   ],
   backend: [
-    { name: 'Node JS', icon: <FaNode style={ iconStyle }/>, link: 'https://nodejs.org/en/' },
-    { name: 'Express JS', icon: <SiExpress style={ iconStyle }/>, link: 'https://expressjs.com/' },
+    { name: 'Node.js', icon: <FaNode style={ iconStyle }/>, link: 'https://nodejs.org/en/' },
+    { name: 'Express', icon: <SiExpress style={ iconStyle }/>, link: 'https://expressjs.com/' },
     { name: 'Sequelize', icon: <SiSequelize style={ iconStyle }/>, link: 'https://sequelize.org/' },
     { name: 'Mongoose', icon: <SiMongodb style={ iconStyle }/>, link: 'https://mongoosejs.com/' },
     { name: 'ThunderClient', icon: <AiFillThunderbolt style={ iconStyle }/>, link: 'https://www.thunderclient.io/' },
