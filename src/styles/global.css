@@ -54,6 +54,36 @@ html:not([data-scroll='0']) .theme-light .navbar.bg-main,
   border-radius: 0 !important;
 }
 
+.theme-dark .card:hover {
+  box-shadow: 0 0 0.5em #757575;
+}
+
+.theme-light .card:hover {
+  box-shadow: 0 0 0.5em lightgray;
+}
+
+.card-title a {
+  font-weight: 500;
+  font-size: medium;
+}
+
+.theme-dark .card-title a {
+  color: white;
+
+}
+
+.theme-dark .card-title a:hover {
+  color: lightgray;
+}
+
+.theme-light .card-title a {
+  color: #404040;
+}
+
+.theme-light .card-title a:hover {
+  color: #757575;
+}
+
 /* width */
 
 .full-width {
@@ -93,6 +123,7 @@ a {
   text-decoration: none;
   font-weight: bold;
   font-size: large;
+  display: block;
 }
 
 /* margin */
