@@ -43,7 +43,7 @@ import { DiScrum } from 'react-icons/di';
 const iconStyle = { fontSize: '4rem', fill: "url(#blue-gradient)" };
 
 const iconCards = {
-  workEnvironment: [
+  environment: [
     { name: 'Ubuntu', icon: <SiUbuntu style={ iconStyle }/>, link: 'https://ubuntu.com/' },
     { name: 'Windows', icon: <SiWindows style={ iconStyle }/>, link: 'https://www.microsoft.com/en-us/windows' },
     { name: 'BASH', icon: <SiGnubash style={ iconStyle }/>, link: 'https://www.gnu.org/software/bash/' },
@@ -79,10 +79,8 @@ const iconCards = {
     { name: 'Insomnia', icon: <SiInsomnia style={ iconStyle }/>, link: 'https://insomnia.rest/' },
     { name: 'Postman', icon: <SiPostman style={ iconStyle }/>, link: 'https://www.postman.com/' },
   ],
-  containers: [
+  devops: [
     { name: 'Docker', icon: <FaDocker style={ iconStyle }/>, link: 'https://www.docker.com/' },
-  ],
-  deployment: [
     { name: 'Heroku', icon: <SiHeroku style={ iconStyle }/>, link: 'https://www.heroku.com/' },
   ],
   tests: [
@@ -93,11 +91,9 @@ const iconCards = {
     { name: 'RTL', icon: <SiTestinglibrary style={ iconStyle }/>, link: 'https://testing-library.com/docs/react-testing-library/intro/' },
     { name: 'Pytest', icon: <SiPytest style={ iconStyle }/>, link: 'https://docs.pytest.org/en/stable/' },
   ],
-  communication: [
+  teamwork: [
     { name: 'Slack', icon: <FaSlack style={ iconStyle }/>, link: 'https://slack.com/intl/en-br/' },
     { name: 'Zoom', icon: <SiZoom style={ iconStyle }/>, link: 'https://zoom.us/' },
-  ],
-  agile: [
     { name: 'Kanban', icon: <BsKanban style={ iconStyle }/>, link: 'https://www.atlassian.com/agile/kanban' },
     { name: 'SCRUM', icon: <DiScrum style={ iconStyle }/>, link: 'https://www.scrum.org/' },
     { name: 'Trello', icon: <SiTrello style={ iconStyle }/>, link: 'https://trello.com/' },
