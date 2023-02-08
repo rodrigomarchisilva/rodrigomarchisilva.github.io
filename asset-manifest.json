@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.10bd199c.css",
-    "main.js": "/static/js/main.d693908b.js",
+    "main.js": "/static/js/main.d6241baf.js",
     "static/js/787.aed229e6.chunk.js": "/static/js/787.aed229e6.chunk.js",
     "static/media/battisti-bootstrap-art.png": "/static/media/battisti-bootstrap-art.4d99d5e783edd1bb878a.png",
     "static/media/trybe-starwars-planets-search.png": "/static/media/trybe-starwars-planets-search.1752067cd074d39c2482.png",
@@ -9,6 +9,7 @@
     "static/media/moon.png": "/static/media/moon.78d1a5f5644c3df1a666.png",
     "static/media/logotype.png": "/static/media/logotype.4511e210357371992d22.png",
     "static/media/rodrigomarchisilva.png": "/static/media/rodrigomarchisilva.cfc684c84ac579a1d044.png",
+    "static/media/rodrigo-marchi-silva.png": "/static/media/rodrigo-marchi-silva.5204001eabc701052294.png",
     "static/media/trybe-lessons-learned.png": "/static/media/trybe-lessons-learned.0d3aaf9679b1fe32f1c6.png",
     "static/media/trybe-wallet.png": "/static/media/trybe-wallet.3c0e18af4cadc31241ab.png",
     "static/media/flag-br.png": "/static/media/flag-br.2813c1c6937b5bce9646.png",
@@ -18,11 +19,11 @@
     "static/media/light-background.webp": "/static/media/light-background.0678769b4e9cd3c809f3.webp",
     "index.html": "/index.html",
     "main.10bd199c.css.map": "/static/css/main.10bd199c.css.map",
-    "main.d693908b.js.map": "/static/js/main.d693908b.js.map",
+    "main.d6241baf.js.map": "/static/js/main.d6241baf.js.map",
     "787.aed229e6.chunk.js.map": "/static/js/787.aed229e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10bd199c.css",
-    "static/js/main.d693908b.js"
+    "static/js/main.d6241baf.js"
   ]
 }
