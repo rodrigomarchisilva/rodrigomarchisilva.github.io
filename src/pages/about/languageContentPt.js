@@ -25,6 +25,16 @@ const education = {
   id: 'education',
   threeKeyObjectList: [
     {
+      title: 'UNINOVE (Jan 2023 – Jun 2025)',
+      subtitle: 'Tecnólogo em Análise e Desenvolvimento de Sistemas',
+      description: `Curso EaD que tem como objetivo formar profissionais para projetar, 
+      implementar e manter sistemas e aplicativos de software, usando as tecnologias e 
+      metodologias mais atuais do mercado. O currículo abrange tópicos como programação, 
+      banco de dados, engenharia de software e gerenciamento de projetos, entre outros, 
+      fornecendo aos estudantes uma compreensão abrangente do processo de desenvolvimento 
+      de software.`,
+    },
+    {
       title: 'Trybe (Mai 2021 – Ago 2022)',
       subtitle: 'Desenvolvimento Web (Full Stack em JavaScript)',
       description: `O curso da Trybe de desenvolvimento web tem 

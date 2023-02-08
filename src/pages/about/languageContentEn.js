@@ -25,6 +25,15 @@ const education = {
   id: 'education',
   threeKeyObjectList: [
     {
+      title: 'UNINOVE (Jan 2023 – Jun 2025)',
+      subtitle: 'Associate\'s degree in Analysis and Development of Systems',
+      description: `Online course that aims to train professionals to design, implement 
+      and maintain software systems and applications, using the most current technologies 
+      and methodologies of the market. The curriculum covers topics such as programming, 
+      database, software engineering, and project management, among others, providing 
+      students with a comprehensive understanding of the software development process.`,
+    },
+    {
       title: 'Trybe (May 2021 – Aug 2022)',
       subtitle: 'Web Development (Full Stack in JavaScript)',
       description: `Trybe's web development course has 
