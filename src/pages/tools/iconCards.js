@@ -85,17 +85,17 @@ const iconCards = {
   ],
   tests: [
     { name: 'Jest', icon: <SiJest style={ iconStyle }/>, link: 'https://jestjs.io/' },
+    { name: 'RTL', icon: <SiTestinglibrary style={ iconStyle }/>, link: 'https://testing-library.com/docs/react-testing-library/intro/' },
     { name: 'Mocha', icon: <SiMocha style={ iconStyle }/>, link: 'https://mochajs.org/' },
     { name: 'Chai', icon: <SiChai style={ iconStyle }/>, link: 'https://www.chaijs.com/' },
     { name: 'Sinon', icon: <GiBeard style={ iconStyle }/>, link: 'https://sinonjs.org/' },
-    { name: 'RTL', icon: <SiTestinglibrary style={ iconStyle }/>, link: 'https://testing-library.com/docs/react-testing-library/intro/' },
     { name: 'Pytest', icon: <SiPytest style={ iconStyle }/>, link: 'https://docs.pytest.org/en/stable/' },
   ],
   teamwork: [
     { name: 'Slack', icon: <FaSlack style={ iconStyle }/>, link: 'https://slack.com/intl/en-br/' },
     { name: 'Zoom', icon: <SiZoom style={ iconStyle }/>, link: 'https://zoom.us/' },
-    { name: 'Kanban', icon: <BsKanban style={ iconStyle }/>, link: 'https://www.atlassian.com/agile/kanban' },
     { name: 'SCRUM', icon: <DiScrum style={ iconStyle }/>, link: 'https://www.scrum.org/' },
+    { name: 'Kanban', icon: <BsKanban style={ iconStyle }/>, link: 'https://www.atlassian.com/agile/kanban' },
     { name: 'Trello', icon: <SiTrello style={ iconStyle }/>, link: 'https://trello.com/' },
   ],
 };
