@@ -92,17 +92,17 @@ const experiences = {
     },
     {
       title: 'DHL Logistics Brazil LTDA (Nov 2011 - Jan 2014)',
-      subtitle: 'Transportation assistant',
+      subtitle: 'Transportation assistant and traffic clerk',
       description: 'Identification and collection of pending invoices, interaction with drivers/operation and creation of picking lists, mostly using Excel.',
     },
     {
       title: 'DHL Logistics Brazil LTDA (Oct 2011 - Oct 2012)',
-      subtitle: 'Warehouse operator',
+      subtitle: 'Warehouse agent',
       description: 'Warehouse picking routine and passage through the entire inbound, outbound and repair of damaged boxes.',
     },
     {
       title: 'Alpino Indústria Metalúrgica LTDA (Mar 2008 – Jan 2010)',
-      subtitle: 'Tooling apprentice',
+      subtitle: 'Toolmaker apprentice',
       description: 'Test jigs development for tubular parts using a wide range of standard machining tools.',
     },
   ],
