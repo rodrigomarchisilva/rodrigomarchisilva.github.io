@@ -55,7 +55,7 @@ const education = {
       membros da tripulação, clima, navegação, tipos de aeronaves, entre outros temas.`,
     },
     {
-      title: 'SENAI (Jan 2008 – Dec 2009)',
+      title: 'SENAI (Jan 2008 – Dez 2009)',
       subtitle: 'Mecânico de Usinagem',
       description: `Operação de máquinas (tornos, fresadoras, retificadoras, máquinas de solda, 
       CNC), uso de desenhos técnicos e instrumentos de medição (micrômetros e paquímetros), 
