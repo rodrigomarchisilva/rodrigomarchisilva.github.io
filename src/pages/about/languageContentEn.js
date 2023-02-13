@@ -46,6 +46,21 @@ const education = {
       subtitle: 'Bachelor\'s degree in biomedicine',
       description: ' Qualified in imaging and clinical analysis.',
     },
+    {
+      title: 'Academia das Águias (Jul 2014 – Jan 2015)',
+      subtitle: 'Flight attendant',
+      description: `Course that aims to train flight attendants, teaching aerodynamics, 
+      safety, emergency procedures, survival, first aid, rights and duties of crew members, 
+      weather, navigation, types of aircraft, among other topics.`,
+    },
+    {
+      title: 'SENAI (Jan 2008 – Dec 2009)',
+      subtitle: 'Machinist',
+      description: `Operation of machinery (lathes, milling machines, grinders, welding 
+      machines, CNC), usage of technical drawings and measurement instruments (micrometers 
+      and calipers), materials (steel, aluminum, brass, plastic and wood) and mathematics 
+      related to metallurgy.`,
+    }
   ],
 };
 

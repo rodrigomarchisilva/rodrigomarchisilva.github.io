@@ -47,6 +47,20 @@ const education = {
       subtitle: 'Bacharel em Biomedicina',
       description: ' Habilitado em Imagenologia e Análises Clínicas.',
     },
+    {
+      title: 'Academia das Águias (Jul 2014 – Jan 2015)',
+      subtitle: 'Comissário de Voo',
+      description: `Curso que visa formar comissários de bordo, ensinando aerodinâmica, segurança, 
+      procedimentos de emergência, sobrevivência, primeiros socorros, direitos e deveres dos 
+      membros da tripulação, clima, navegação, tipos de aeronaves, entre outros temas.`,
+    },
+    {
+      title: 'SENAI (Jan 2008 – Dec 2009)',
+      subtitle: 'Mecânico de Usinagem',
+      description: `Operação de máquinas (tornos, fresadoras, retificadoras, máquinas de solda, 
+      CNC), uso de desenhos técnicos e instrumentos de medição (micrômetros e paquímetros), 
+      materiais (aço, alumínio, latão, plástico e madeira) e matemática relacionada à metalurgia.`,
+    }
   ],
 };
 
